@@ -14,6 +14,7 @@ if [ $# -lt 1 ]; then
 fi
 
 folder_name=$1
+share_name="my_share"
 
 function command_status(){
     if [ $? -ne 0 ]; then
@@ -49,7 +50,7 @@ sudo chown $USER:$USER $folder_name
 
 echo $log_n" creating configuration file"
 rm -rf /tmp/smb.conf
-echo "[share]" >> /tmp/smb.conf
+echo "[$share_name]" >> /tmp/smb.conf
 echo "Comment = Pi_Share" >> /tmp/smb.conf 
 echo "Path = "$folder_name >> /tmp/smb.conf
 echo "Browseable = yes" >> /tmp/smb.conf
