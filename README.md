@@ -10,4 +10,9 @@ This utility installs and configures samba file share with a single line command
 
 local_folder_name: Full path of folder name to be shared to the network
 
-
+##### OPEN NEWLY CREATED SHARE IN MAC
+    
+    1. GoTo terminal 
+    2. Enter the following command
+       
+       $open 'smb://<user_name>:<samba_password>@<server_ip>/<share_name>'
