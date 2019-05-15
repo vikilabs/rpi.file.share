@@ -8,7 +8,7 @@ This utility install and configure samba file share with a single command.
     2. cd rpi_file_share/src
     3. ./setup_samba_share.sh <local_folder_to_share> <share_name>
 
-    <local_folder_to_share> : Full path of folder name to be shared to the network
+    <local_folder_to_share> : Full path of folder name to be shared over the network
 
     <share_name>            : Can provide any name. The share can be accessed by this name over the network ( default name is my_share )      
     
