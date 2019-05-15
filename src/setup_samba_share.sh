@@ -13,7 +13,7 @@ if [ $# -lt 1 ]; then
     exit 1 
 fi
 
-folder_name=$1"/share"
+folder_name=$1
 
 function command_status(){
     if [ $? -ne 0 ]; then
