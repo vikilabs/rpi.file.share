@@ -2,7 +2,7 @@
 
 This utility installs and configures samba file share with a single line command.
 
-###### SETUP SAMBA FILE SHARE 
+##### SETUP SAMBA FILE SHARE 
 
     1. git clone https://github.com/vikilabs/rpi_file_share.git
     2. cd rpi_file_share/src
