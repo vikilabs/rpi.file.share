@@ -36,7 +36,7 @@ fi
 echo $log_n" creating share"
 ls $folder_name 
 if [ $? -eq 0 ]; then
-   $log_n" share already exist"
+   echo $log_n" share already exist"
 else   
    sudo mkdir -p $folder_name 2>&- /dev/null 
    command_status "share creation"
