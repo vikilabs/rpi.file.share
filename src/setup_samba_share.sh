@@ -16,6 +16,12 @@ fi
 folder_name=$1
 share_name="my_share"
 
+if [ $# -lt 2 ]; then
+    share_name="my_share"
+else
+    share_name=$2
+fi
+
 function command_status(){
     if [ $? -ne 0 ]; then
     	echo $log_e" "$1
