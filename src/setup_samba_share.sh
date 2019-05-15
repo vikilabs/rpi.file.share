@@ -48,6 +48,7 @@ command_status "setting share permission"
 sudo chown $USER:$USER $folder_name
 
 echo $log_n" creating configuration file"
+rm -rf /tmp/smb.conf
 echo "[share]" >> /tmp/smb.conf
 echo "Comment = Pi_Share" >> /tmp/smb.conf 
 echo "Path = "$folder_name >> /tmp/smb.conf
