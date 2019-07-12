@@ -2,7 +2,9 @@
 
 This utility install and configure samba file share with a single command.
 
-##### SETUP SAMBA FILE SHARE 
+##### SETUP SAMBA FILE SHARE ON RASPBERRY PI
+
+###### EXECUTE THE FOLLOWING ON RASPBERRY PI
 
     1. git clone https://github.com/vikilabs/rpi_file_share.git
     2. cd rpi_file_share/src
@@ -20,7 +22,7 @@ This utility install and configure samba file share with a single command.
     
         $./setup_samba_share.sh /home/viki/music my_share
 
-##### OPEN NEWLY CREATED SHARE IN MAC OSX
+##### OPEN NEWLY CREATED SHARE ON MAC OSX
     
     1. GoTo terminal 
     2. Enter the following command
