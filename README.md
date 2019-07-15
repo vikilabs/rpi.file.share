@@ -27,7 +27,7 @@ This utility install and configure samba file share with a single command.
     1. GoTo terminal 
     2. Enter the following command
        
-       $open 'smb://<user_name>:<samba_password>@<server_ip>/<share_name>'
+       $open 'smb://<user_name>:<samba_password>@<RaspberryPi_ip>/<share_name>'
 
     Example:
 
